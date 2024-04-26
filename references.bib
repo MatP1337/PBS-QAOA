@@ -1,0 +1,132 @@
+
+@misc{jumade_data_2023,
+	title = {Data is often loadable in short depth: {Quantum} circuits from tensor networks for finance, images, fluids, and proteins},
+	shorttitle = {Data is often loadable in short depth},
+	url = {http://arxiv.org/abs/2309.13108},
+	abstract = {Though there has been substantial progress in developing quantum algorithms to study classical datasets, the cost of simply {\textbackslash}textit\{loading\} classical data is an obstacle to quantum advantage. When the amplitude encoding is used, loading an arbitrary classical vector requires up to exponential circuit depths with respect to the number of qubits. Here, we address this ``input problem'' with two contributions. First, we introduce a circuit compilation method based on tensor network (TN) theory. Our method -- AMLET (Automatic Multi-layer Loader Exploiting TNs) -- proceeds via careful construction of a specific TN topology and can be tailored to arbitrary circuit depths. Second, we perform numerical experiments on real-world classical data from four distinct areas: finance, images, fluid mechanics, and proteins. To the best of our knowledge, this is the broadest numerical analysis to date of loading classical data into a quantum computer. The required circuit depths are often several orders of magnitude lower than the exponentially-scaling general loading algorithm would require. Besides introducing a more efficient loading algorithm, this work demonstrates that many classical datasets are loadable in depths that are much shorter than previously expected, which has positive implications for speeding up classical workloads on quantum computers.},
+	urldate = {2024-02-23},
+	publisher = {arXiv},
+	author = {Jumade, Raghav and Sawaya, Nicolas PD},
+	month = dec,
+	year = {2023},
+	note = {arXiv:2309.13108 [physics, physics:quant-ph]},
+	keywords = {Computer Science - Machine Learning, Physics - Data Analysis, Statistics and Probability, Quantum Physics},
+	file = {arXiv Fulltext PDF:/Users/matteoantonioinajetovic/Zotero/storage/E99P8QN4/Jumade e Sawaya - 2023 - Data is often loadable in short depth Quantum cir.pdf:application/pdf;arXiv.org Snapshot:/Users/matteoantonioinajetovic/Zotero/storage/NMTUWIFJ/2309.html:text/html},
+}
+
+@article{araujo_divide-and-conquer_2021,
+	title = {A divide-and-conquer algorithm for quantum state preparation},
+	volume = {11},
+	issn = {2045-2322},
+	url = {https://www.nature.com/articles/s41598-021-85474-1},
+	doi = {10.1038/s41598-021-85474-1},
+	abstract = {Abstract
+            
+              Advantages in several fields of research and industry are expected with the rise of quantum computers. However, the computational cost to load classical data in quantum computers can impose restrictions on possible quantum speedups. Known algorithms to create arbitrary quantum states require quantum circuits with depth
+              O
+              (
+              N
+              ) to load an
+              N
+              -dimensional vector. Here, we show that it is possible to load an
+              N
+              -dimensional vector with exponential time advantage using a quantum circuit with polylogarithmic depth and entangled information in ancillary qubits. Results show that we can efficiently load data in quantum devices using a divide-and-conquer strategy to exchange computational time for space. We demonstrate a proof of concept on a real quantum device and present two applications for quantum machine learning. We expect that this new loading strategy allows the quantum speedup of tasks that require to load a significant volume of information to quantum devices.},
+	language = {en},
+	number = {1},
+	urldate = {2024-02-23},
+	journal = {Scientific Reports},
+	author = {Araujo, Israel F. and Park, Daniel K. and Petruccione, Francesco and Da Silva, Adenilton J.},
+	month = mar,
+	year = {2021},
+	pages = {6329},
+	file = {Araujo et al. - 2021 - A divide-and-conquer algorithm for quantum state p.pdf:/Users/matteoantonioinajetovic/Zotero/storage/CAF46M2C/Araujo et al. - 2021 - A divide-and-conquer algorithm for quantum state p.pdf:application/pdf},
+}
+
+@article{iaconis_quantum_2024,
+	title = {Quantum state preparation of normal distributions using matrix product states},
+	volume = {10},
+	issn = {2056-6387},
+	url = {https://www.nature.com/articles/s41534-024-00805-0},
+	doi = {10.1038/s41534-024-00805-0},
+	abstract = {Abstract
+            State preparation is a necessary component of many quantum algorithms. In this work, we combine a method for efficiently representing smooth differentiable probability distributions using matrix product states with recently discovered techniques for initializing quantum states to approximate matrix product states. Using this, we generate quantum states encoding a class of normal probability distributions in a trapped ion quantum computer for up to 20 qubits. We provide an in depth analysis of the different sources of error which contribute to the overall fidelity of this state preparation procedure. Our work provides a study in quantum hardware for scalable distribution loading, which is the basis of a wide range of algorithms that provide quantum advantage.},
+	language = {en},
+	number = {1},
+	urldate = {2024-02-23},
+	journal = {npj Quantum Information},
+	author = {Iaconis, Jason and Johri, Sonika and Zhu, Elton Yechao},
+	month = jan,
+	year = {2024},
+	pages = {15},
+	file = {Iaconis et al. - 2024 - Quantum state preparation of normal distributions .pdf:/Users/matteoantonioinajetovic/Zotero/storage/UW9EAK5V/Iaconis et al. - 2024 - Quantum state preparation of normal distributions .pdf:application/pdf},
+}
+
+@article{fuchs_constrained_2022,
+	title = {Constrained mixers for the quantum approximate optimization algorithm},
+	volume = {15},
+	issn = {1999-4893},
+	url = {http://arxiv.org/abs/2203.06095},
+	doi = {10.3390/a15060202},
+	abstract = {The quantum approximate optimization algorithm/quantum alternating operator ansatz (QAOA) is a heuristic to find approximate solutions of combinatorial optimization problems. Most literature is limited to quadratic problems without constraints. However, many practically relevant optimization problems do have (hard) constraints that need to be fulfilled. In this article, we present a framework for constructing mixing operators that restrict the evolution to a subspace of the full Hilbert space given by these constraints; We generalize the "XY"-mixer designed to preserve the subspace of "one-hot" states to the general case of subspaces given by a number of computational basis states. We expose the underlying mathematical structure which reveals more of how mixers work and how one can minimize their cost in terms of number of CX gates, particularly when Trotterization is taken into account. Our analysis also leads to valid Trotterizations for "XY"-mixer with fewer CX gates than is known to date. In view of practical implementations, we also describe algorithms for efficient decomposition into basis gates. Several examples of more general cases are presented and analyzed.},
+	number = {6},
+	urldate = {2024-02-23},
+	journal = {Algorithms},
+	author = {Fuchs, Franz G. and Lye, Kjetil Olsen and Nilsen, Halvor Møll and Stasik, Alexander J. and Sartor, Giorgio},
+	month = jun,
+	year = {2022},
+	note = {arXiv:2203.06095 [quant-ph]},
+	keywords = {Quantum Physics},
+	pages = {202},
+	file = {arXiv Fulltext PDF:/Users/matteoantonioinajetovic/Zotero/storage/3IHBRFBF/Fuchs et al. - 2022 - Constrained mixers for the quantum approximate opt.pdf:application/pdf;arXiv.org Snapshot:/Users/matteoantonioinajetovic/Zotero/storage/Q8HXGLJL/2203.html:text/html},
+}
+
+@misc{nadori_promising_2024,
+	title = {The promising path of evolutionary optimization to avoid barren plateaus},
+	url = {http://arxiv.org/abs/2402.05227},
+	abstract = {Variational quantum algorithms are viewed as promising candidates for demonstrating quantum advantage on near-term devices. These approaches typically involve the training of parameterized quantum circuits through a classical optimization loop. However, they often encounter challenges attributed to the exponentially diminishing gradient components, known as the barren plateau (BP) problem. This work introduces a novel optimization method designed to alleviate the adverse effects of BPs during circuit training. Our approach to select the optimization search direction relies on the distant features of the cost-function landscape. This enables the optimization path to navigate around barren plateaus without the need for external control mechanisms. We have successfully applied our optimization strategy to quantum circuits comprising \$16\$ qubits and \$15000\$ entangling gates, demonstrating robust resistance against BPs. Additionally, we have extended our optimization strategy by incorporating an evolutionary selection framework, enhancing its ability to avoid local minima in the landscape. The modified algorithm has been successfully utilized in quantum gate synthesis applications, showcasing a significantly improved efficiency in generating highly compressed quantum circuits compared to traditional gradient-based optimization approaches.},
+	urldate = {2024-02-23},
+	publisher = {arXiv},
+	author = {Nádori, Jakab and Morse, Gregory and Majnay-Takács, Zita and Zimborás, Zoltán and Rakyta, Péter},
+	month = feb,
+	year = {2024},
+	note = {arXiv:2402.05227 [quant-ph]},
+	keywords = {Quantum Physics},
+	file = {arXiv Fulltext PDF:/Users/matteoantonioinajetovic/Zotero/storage/Z5RS5FJC/Nádori et al. - 2024 - The promising path of evolutionary optimization to.pdf:application/pdf;arXiv.org Snapshot:/Users/matteoantonioinajetovic/Zotero/storage/BWDBDYBD/2402.html:text/html},
+}
+
+@article{matsuo_enhancing_2023,
+	title = {Enhancing {VQE} {Convergence} for {Optimization} {Problems} with {Problem}-specific {Parameterized} {Quantum} {Circuits}},
+	volume = {E106.D},
+	issn = {0916-8532, 1745-1361},
+	url = {http://arxiv.org/abs/2006.05643},
+	doi = {10.1587/transinf.2023EDP7071},
+	abstract = {The Variational Quantum Eigensolver (VQE) algorithm is gaining interest for its potential use in near-term quantum devices. In the VQE algorithm, parameterized quantum circuits (PQCs) are employed to prepare quantum states, which are then utilized to compute the expectation value of a given Hamiltonian. Designing efficient PQCs is crucial for improving convergence speed. In this study, we introduce problem-specific PQCs tailored for optimization problems by dynamically generating PQCs that incorporate problem constraints. This approach reduces a search space by focusing on unitary transformations that benefit the VQE algorithm, and accelerate convergence. Our experimental results demonstrate that the convergence speed of our proposed PQCs outperforms state-of-the-art PQCs, highlighting the potential of problem-specific PQCs in optimization problems.},
+	number = {11},
+	urldate = {2024-02-23},
+	journal = {IEICE Transactions on Information and Systems},
+	author = {Matsuo, Atsushi and Suzuki, Yudai and Hamamura, Ikko and Yamashita, Shigeru},
+	month = nov,
+	year = {2023},
+	note = {arXiv:2006.05643 [quant-ph]},
+	keywords = {Quantum Physics},
+	pages = {1772--1782},
+	file = {arXiv Fulltext PDF:/Users/matteoantonioinajetovic/Zotero/storage/GU4H27LS/Matsuo et al. - 2023 - Enhancing VQE Convergence for Optimization Problem.pdf:application/pdf;arXiv.org Snapshot:/Users/matteoantonioinajetovic/Zotero/storage/7G7B3P5B/2006.html:text/html},
+}
+
+@article{moawad_quantum_2023,
+	title = {Quantum {Circuit}-{Width} {Reduction} through {Parameterisation} and {Specialisation}},
+	volume = {16},
+	issn = {1999-4893},
+	url = {https://www.mdpi.com/1999-4893/16/5/241},
+	doi = {10.3390/a16050241},
+	abstract = {As quantum computing technology continues to develop, the need for research into novel quantum algorithms is growing. However, such algorithms cannot yet be reliably tested on actual quantum hardware, which is still limited in several ways, including qubit coherence times, connectivity, and available qubits. To facilitate the development of novel algorithms despite this, simulators on classical computing systems are used to verify the correctness of an algorithm, and study its behaviour under different error models. In general, this involves operating on a memory space that grows exponentially with the number of qubits. In this work, we introduce quantum circuit transformations that allow for the construction of parameterised circuits for quantum algorithms. The parameterised circuits are in an ideal form to be processed by quantum compilation tools, such that the circuit can be partially evaluated prior to simulation, and a smaller specialised circuit can be constructed by eliminating ﬁxed input qubits. We show signiﬁcant reduction in the number of qubits for various quantum arithmetic circuits. Divide-by-n-bits quantum integer dividers are used as an example demonstration. It is shown that the complexity reduces from 4n + 2 to 3n + 2 qubits in the specialised versions. For quantum algorithms involving divide-by-8 arithmetic operations, a reduction by 28 = 256 in required memory is achieved for classical simulation, reducing the memory required from 137 GB to 0.53 GB.},
+	language = {en},
+	number = {5},
+	urldate = {2024-02-23},
+	journal = {Algorithms},
+	author = {Moawad, Youssef and Vanderbauwhede, Wim and Steijl, René},
+	month = may,
+	year = {2023},
+	pages = {241},
+	file = {Moawad et al. - 2023 - Quantum Circuit-Width Reduction through Parameteri.pdf:/Users/matteoantonioinajetovic/Zotero/storage/TCR65KQ3/Moawad et al. - 2023 - Quantum Circuit-Width Reduction through Parameteri.pdf:application/pdf},
+}
